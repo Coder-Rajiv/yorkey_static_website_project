@@ -1,0 +1,67 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1, h2 {
+    margin: 0;
+  }
+  
+  h2 {
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  main {
+    padding: 50px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    margin-bottom: 10px;
+  }
+  
+  .about-us p {
+    text-align: justify;
+  }
+  
+  .products, .services {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .products li, .services li {
+    margin-bottom: 5px;
+  }
+  
+  .contact {
+    text-align: center;
+  }
+  
+  .contact a {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  .contact a:hover {
+    background-color: #444;
+  }
+  
+  footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+  }
+  
