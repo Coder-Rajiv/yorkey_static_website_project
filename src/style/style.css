@@ -1,0 +1,18 @@
+body {
+    padding-top: 56px;
+    background-color: #a583ec
+}
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+.card {
+    margin-bottom: 30px;
+}
+
+a {
+    color: rgb(139, 0, 9); 
+    font-size: 25px; 
+    font-family: cursive;
+    text-align: left;
+}
