@@ -16,3 +16,35 @@ a {
     font-family: cursive;
     text-align: left;
 }
+
+footer {
+    background-color: #180662;
+    color: #fff;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+ 
+.footer-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-content h3 {
+    margin: 0 0 10px;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+.footer-content a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
