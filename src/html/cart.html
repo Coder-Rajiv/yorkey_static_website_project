@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store - Cart Management</title>
+    <link rel="stylesheet" href="../style/cart.css">
+</head>
+<body>
+
+    <!-- Cart Container -->
+    <div class="cart-container">
+        <h1>Shopping Cart</h1>
+        <div id="cart-items">
+            <!-- Cart items will be dynamically added here by JavaScript -->
+        </div>
+
+        <!-- Cart Summary -->
+        <div class="cart-summary">
+            <p>Subtotal: $<span id="subtotal">0.00</span></p>
+            <p>Estimated Tax (10%): $<span id="tax">0.00</span></p>
+            <p>Total: $<span id="total">0.00</span></p>
+        </div>
+
+        <!-- Sample Products to Add to Cart -->
+        <div class="product-list">
+            <h2>Products</h2>
+            <button onclick="addItem('Product A', 10.00)">Add Product A - $10.00</button>
+            <button onclick="addItem('Product B', 15.00)">Add Product B - $15.00</button>
+            <button onclick="addItem('Product C', 20.00)">Add Product C - $20.00</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

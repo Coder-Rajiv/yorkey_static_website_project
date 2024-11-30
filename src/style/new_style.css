@@ -5,6 +5,14 @@ body {
     padding: 0;
 }
 
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+.card {
+    margin-bottom: 30px;
+}
+
 header {
     display: flex;
     justify-content: space-between;
